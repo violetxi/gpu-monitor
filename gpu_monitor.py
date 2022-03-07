@@ -282,9 +282,14 @@ def main(argv):
         gpu_infos = get_gpu_infos(nvidiasmi)
 
         if args.list:
-            print_gpu_infos(server, gpu_infos, run_ps, run_get_real_names,
-                            filter_by_user=args.user,
-                            translate_to_real_names=args.finger)
+            try:
+                print_gpu_infos(server, gpu_infos, run_ps, run_get_real_names,
+                                filter_by_user=args.user,
+                                translate_to_real_names=args.finger)
+            except:
+                print('Failed due to', sys.exc_info()[0])
+                pass
+                
         else:
             print_free_gpus(server, gpu_infos)
 

@@ -1,0 +1,16 @@
+node01-ccncluster.stanford.edu
+node02-ccncluster.stanford.edu
+node03-ccncluster.stanford.edu
+node04-ccncluster.stanford.edu
+node05-ccncluster.stanford.edu
+node06-ccncluster.stanford.edu
+node07-ccncluster.stanford.edu
+node08-ccncluster.stanford.edu
+node09-ccncluster.stanford.edu
+node11-ccncluster.stanford.edu
+node12-ccncluster.stanford.edu
+node14-ccncluster.stanford.edu
+node15-ccncluster.stanford.edu
+node16-ccncluster.stanford.edu
+node17-ccncluster.stanford.edu
+node18-ccncluster.stanford.edu
